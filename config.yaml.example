@@ -1,0 +1,16 @@
+# AWS Configuration
+aws:
+  access_key_id: "your-aws-access-key-id"
+  secret_access_key: "your-aws-secret-access-key"
+  region: "us-gov-west-1"
+
+# Kubernetes Configuration  
+kubernetes:
+  cluster_name: "your-cluster-name"
+  cluster_endpoint: "https://your-cluster-endpoint.eks.amazonaws.com"
+  default_namespace: "default"
+
+# Server Configuration
+server:
+  host: "localhost"
+  port: "8080"
